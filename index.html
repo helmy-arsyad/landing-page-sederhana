@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Bootcamp - Web Dev</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-code text-2xl text-blue-600"></i>
+                <span class="text-xl font-bold text-gray-800">Web Dev</span>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#sdlc" class="text-gray-600 hover:text-blue-600 transition">SDLC</a>
+                <a href="#version-control" class="text-gray-600 hover:text-blue-600 transition">Git & GitHub</a>
+                <a href="#developer-tools" class="text-gray-600 hover:text-blue-600 transition">DevTools</a>
+                <a href="#html-css" class="text-gray-600 hover:text-blue-600 transition">HTML & CSS</a>
+                <a href="#tailwind" class="text-gray-600 hover:text-blue-600 transition">Tailwind</a>
+                <a href="#mini-project" class="text-gray-600 hover:text-blue-600 transition">Project</a>
+            </nav>
+            <a href="#curriculum" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+                Get Started
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-16 bg-gradient-to-br from-blue-600 to-indigo-700">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 text-white">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">
+                        Master Web Development from Scratch
+                    </h1>
+                    <p class="text-lg mb-8 text-blue-100">
+                        Learn the essential skills to become a professional web developer. 
+                        From fundamentals to advanced techniques, we've got you covered.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#curriculum" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition inline-block text-center">
+                            Enroll Now
+                        </a>
+                        <a href="#sdlc" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition inline-block text-center">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-12 md:mt-0">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop" 
+                         alt="Coding" 
+                         class="rounded-xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SDLC Section -->
+    <section id="sdlc" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=350&fit=crop" 
+                         alt="SDLC" 
+                         class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-project-diagram text-blue-600 text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-gray-800">Software Development Lifecycle (SDLC)</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Learn the systematic approach to software development. Understand the phases of SDLC including 
+                        planning, analysis, design, implementation, testing, and maintenance.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Requirements Analysis
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> System Design
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Implementation
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Testing & Maintenance
+                        </li>
+                    </ul>
+                    <a href="#curriculum" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition inline-block">
+                        Start Learning
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Version Control Section -->
+    <section id="version-control" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=500&h=350&fit=crop" 
+                         alt="Git & GitHub" 
+                         class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                            <i class="fab fa-git-alt text-green-600 text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-gray-800">Version Control (Git & GitHub)</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Master Git for version control and GitHub for collaboration. Learn to track changes, 
+                        manage branches, and work effectively in teams.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Git Basics & Commands
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Branching & Merging
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> GitHub Collaboration
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Pull Requests & Code Reviews
+                        </li>
+                    </ul>
+                    <a href="#curriculum" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition inline-block">
+                        Learn Git
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Tools Section -->
+    <section id="developer-tools" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=350&fit=crop" 
+                         alt="Developer Tools" 
+                         class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-tools text-purple-600 text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-gray-800">Developer Tools</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Master VS Code and Browser DevTools for efficient web development and debugging. 
+                        Learn to write code faster and debug effectively.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> VS Code Extensions
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Browser DevTools
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Debugging Techniques
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Performance Profiling
+                        </li>
+                    </ul>
+                    <a href="#curriculum" class="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition inline-block">
+                        Explore Tools
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML & CSS Section -->
+    <section id="html-css" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=500&h=350&fit=crop" 
+                         alt="HTML & CSS" 
+                         class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
+                            <i class="fab fa-html5 text-orange-600 text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-gray-800">HTML & CSS Fundamentals</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Build strong foundations with HTML for structure and CSS for styling. 
+                        Learn semantic HTML, CSS selectors, flexbox, and grid.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> HTML5 Semantic Elements
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> CSS Selectors & Properties
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Flexbox Layout
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> CSS Grid System
+                        </li>
+                    </ul>
+                    <a href="#curriculum" class="bg-orange-600 text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition inline-block">
+                        Start Learning
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tailwind CSS Section -->
+    <section id="tailwind" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&h=350&fit=crop" 
+                         alt="Tailwind CSS" 
+                         class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center">
+                            <i class="fab fa-css3-alt text-cyan-600 text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-gray-800">Styling Modern dengan Tailwind CSS</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Style modern websites efficiently with Tailwind CSS. Learn utility-first CSS framework 
+                        for rapid UI development.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Tailwind Configuration
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Utility Classes
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Responsive Design
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Custom Components
+                        </li>
+                    </ul>
+                    <a href="#curriculum" class="bg-cyan-600 text-white px-6 py-3 rounded-lg hover:bg-cyan-700 transition inline-block">
+                        Style with Tailwind
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mini Project Section -->
+    <section id="mini-project" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=350&fit=crop" 
+                         alt="Mini Project" 
+                         class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-laptop-code text-red-600 text-xl"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-gray-800">Mini Project: Landing Page</h2>
+                    </div>
+                    <p class="text-gray-600 mb-6">
+                        Apply all your skills by building a complete landing page from scratch. 
+                        Create a responsive, modern website using HTML, CSS, and Tailwind.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Project Planning
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Responsive Layout
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Modern Styling
+                        </li>
+                        <li class="flex items-center gap-2 text-gray-600">
+                            <i class="fas fa-check text-green-600"></i> Deployment
+                        </li>
+                    </ul>
+                    <a href="#curriculum" class="bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition inline-block">
+                        Start Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section id="curriculum" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Course Curriculum</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Our comprehensive curriculum covers all essential topics to make you job-ready
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Module 1: SDLC -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition border-l-4 border-blue-600">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-project-diagram text-blue-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">SDLC</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Learn the Software Development Lifecycle and best practices for building robust applications.</p>
+                    <a href="#sdlc" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-sm">
+                        Learn SDLC
+                    </a>
+                </div>
+
+                <!-- Module 2: Version Control -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition border-l-4 border-green-600">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                            <i class="fab fa-git-alt text-green-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Version Control</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Master Git and GitHub for efficient collaboration and code management.</p>
+                    <a href="#version-control" class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition text-sm">
+                        Learn Git
+                    </a>
+                </div>
+
+                <!-- Module 3: Developer Tools -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition border-l-4 border-purple-600">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-tools text-purple-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Developer Tools</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Master VS Code and Browser DevTools for efficient development and debugging.</p>
+                    <a href="#developer-tools" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition text-sm">
+                        Explore Tools
+                    </a>
+                </div>
+
+                <!-- Module 4: HTML & CSS -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition border-l-4 border-orange-600">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center">
+                            <i class="fab fa-html5 text-orange-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">HTML & CSS</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Build strong foundations with HTML and CSS fundamentals for web pages.</p>
+                    <a href="#html-css" class="inline-block bg-orange-600 text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition text-sm">
+                        Start Learning
+                    </a>
+                </div>
+
+                <!-- Module 5: Tailwind CSS -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition border-l-4 border-cyan-600">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center">
+                            <i class="fab fa-css3-alt text-cyan-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Tailwind CSS</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Style modern websites efficiently with Tailwind CSS framework.</p>
+                    <a href="#tailwind" class="inline-block bg-cyan-600 text-white px-4 py-2 rounded-lg hover:bg-cyan-700 transition text-sm">
+                        Style with Tailwind
+                    </a>
+                </div>
+
+                <!-- Module 6: Mini Project -->
+                <div class="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-lg transition border-l-4 border-red-600">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-laptop-code text-red-600 text-xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-800">Mini Project</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Apply your skills by building a complete landing page from scratch.</p>
+                    <a href="#mini-project" class="inline-block bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition text-sm">
+                        Start Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why Choose Us?</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    We provide the best learning experience for aspiring web developers
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-chalkboard-teacher text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Expert Instructors</h3>
+                    <p class="text-gray-600">Learn from industry experts with years of real-world experience.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-hands-helping text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Hands-on Projects</h3>
+                    <p class="text-gray-600">Build real projects to gain practical experience and skills.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-certificate text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">Certification</h3>
+                    <p class="text-gray-600">Earn certificates to boost your resume and career opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-r from-blue-600 to-indigo-700">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Start Your Journey?</h2>
+            <p class="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+                Join thousands of students who have transformed their careers with our bootcamp.
+            </p>
+            <a href="#curriculum" class="bg-white text-blue-600 px-10 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition inline-block">
+                Enroll Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fas fa-code text-2xl text-blue-400"></i>
+                        <span class="text-xl font-bold">Web Dev</span>
+                    </div>
+                    <p class="text-gray-400">Empowering the next generation of web developers.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                        <li><a href="#curriculum" class="hover:text-white transition">Curriculum</a></li>
+                        <li><a href="#features" class="hover:text-white transition">Features</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-envelope mr-2"></i>info@webdev.com</li>
+                        <li><i class="fas fa-phone mr-2"></i>+62 123 4567 890</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-400 transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-pink-600 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-700 transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Seerhana. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
